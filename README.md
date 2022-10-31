@@ -1,15 +1,18 @@
 # Kafka Intro
 
 ### first
-        <!-- kafka dependency -->
-        <dependency>
-            <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-kafka</artifactId>
-        </dependency>
+
+~~~xml
+<!-- kafka dependency -->
+<dependency>
+    <groupId>org.springframework.kafka</groupId>
+    <artifactId>spring-kafka</artifactId>
+</dependency>
+~~~
 
 ### second
 
-~~~xml
+~~~properties
 spring.kafka.consumer.group-id=kafka-intro
 spring.kafka.bootstrap-servers= localhost:902
 ~~~
